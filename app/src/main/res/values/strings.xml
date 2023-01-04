@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ArcGIS</string>
+    <string name="api_key">AAPK5a79e5f7b7ee4503a0ce6378d950126c-otVeISUO9qk9VoH5prqvsdL_k-pF0v4jTaDuFgAEEixmPILpe_KNKeTbIpuqzpM</string>
+    <string name="route_api">https://route-api.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="next_location">Next</string>
+</resources>

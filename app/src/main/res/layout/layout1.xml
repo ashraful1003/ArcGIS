@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/fuel1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/ic_station"
+        android:text="3.6km"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/fuel2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fuel2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/ic_station"
+        android:text="3.8km"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/parking"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuel1" />
+
+    <Button
+        android:id="@+id/parking"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/ic_parking"
+        android:text="4.5km"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuel2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
